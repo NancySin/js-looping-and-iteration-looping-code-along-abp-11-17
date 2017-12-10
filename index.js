@@ -8,7 +8,7 @@ function printBadges(arrayNames){
 
 
   function coinToss() {
-    returm Math.random() >= 0.5;
+    return Math.random() >= 0.5;
   }
    function tailsNeverFails(){
      let counter = 0;
@@ -18,4 +18,3 @@ function printBadges(arrayNames){
 
    return `You got ${counter} tails in a row!`
    }
-
